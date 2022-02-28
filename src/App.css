@@ -38,11 +38,19 @@
 .image-wrapper {
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));   
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));   
 }
 
 img {
   display: block;
+  border-radius: 1.5%;
+  width: 100%;
+}
+
+.news-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 1.5%;
   width: 100%;
 }
@@ -56,16 +64,35 @@ img {
   margin-top: 50px;
 
 }
+
+.banner-2 {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
 .news {
-  border: 1px;
-  border-color: black;
+  border: 1px, black;
   padding: 20px;
 }
 
 .news-body {
   border: 1px;
+  width: 50%;
   font-family: Helvetica, sans-serif;
   font-size: 12px;
+  color: rgb(0, 0, 0);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.news-bold {
+  border: 1px;
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
   color: rgb(0, 0, 0);
   margin-top: 12px;
 }
@@ -132,7 +159,7 @@ img {
 .green-button {
   width: 150px;
   background-color: rgb(172, 233, 115);
-  color: rgb(255, 255, 255);
+  color: black;
   padding: 10px;
   border: none;
   border-radius: 4px;
@@ -143,7 +170,7 @@ img {
 .blue-button {
   width: 150px;
   background-color: rgb(115, 215, 233);
-  color: rgb(255, 255, 255);
+  color: black;
   padding: 10px;
   border: none;
   border-radius: 4px;
@@ -154,7 +181,7 @@ img {
 .orange-button {
   width: 150px;
   background-color: rgb(233, 168, 115);
-  color: rgb(255, 255, 255);
+  color: black;
   padding: 10px;
   border: none;
   border-radius: 4px;
@@ -165,7 +192,7 @@ img {
 .yellow-button {
   width: 150px;
   background-color: rgb(253, 246, 145);
-  color: rgb(255, 255, 255);
+  color: black;
   padding: 10px;
   border: none;
   border-radius: 4px;
@@ -176,7 +203,7 @@ img {
 .purple-button {
   width: 150px;
   background-color: rgb(156, 115, 233);
-  color: rgb(255, 255, 255);
+  color: black;
   padding: 10px;
   border: none;
   border-radius: 4px;
@@ -187,7 +214,7 @@ img {
 .red-button {
   width: 150px;
   background-color: rgb(233, 115, 125);
-  color: rgb(255, 255, 255);
+  color: black;
   padding: 10px;
   border: none;
   border-radius: 4px;
@@ -213,5 +240,7 @@ th {
 }
 
 table {
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }

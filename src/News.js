@@ -1,23 +1,18 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
 import './App.css';
+import NewsArticle from './NewsArticle';
 
 const News = () => {
 
-    /* const [newsData, setNewsData] = useState();
+    const [toFetchNews, setFetchNews] = useState(false);
 
-    const fetchNews = async() => {
-        const data = await Axios.get('./news.json');
-        setNewsData(data);
-    }
-
-    useEffect(() => {
-        fetchNews()
-    }, []) */
+    const toggleFetchNews = () => setFetchNews(!toFetchNews);
+    
 
     return (
         <div class="news">
-            <Link to="/news"><button class="news-button">Check out your News of the Day!</button></Link>                 
+            <button class="news-button" onClick={toggleFetchNews}>Check out your News of the Day!</button>
+            {toFetchNews && <NewsArticle/>}
         </div>
     );
 }
