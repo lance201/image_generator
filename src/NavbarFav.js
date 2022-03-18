@@ -2,13 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './App.css';
 
-const Navbar = () => {
+const NavbarFav = () => {
     return (
         <div class="pill-nav">
-            <Link to="/" class="active">Home</Link>
-            <Link to="/favorite">Favorites</Link>
+            <Link to="/">Home</Link>
+            <Link to="/favorite" class="active">Favorites</Link>
         </div>
     );
 }
 
-export default Navbar;
+export default NavbarFav;

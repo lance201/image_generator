@@ -2,10 +2,12 @@ import React from 'react';
 import Image from './Image';
 import './App.css';
 
-const ImageList = ({ images }) => {
+const ImageList = ({ reload, images }) => {
+
     const imagesComponent = images.map((image, i) => {
-        return <Image key={i} id={images[i].id} source={images[i].source}/>
-    }) 
+        return <Image reload={reload} _id={images[i]._id} key={i} favorite={images[i].fav} url={images[i].url}/>
+    })
+
     return (
         <div class="image-wrapper">
             {imagesComponent}
