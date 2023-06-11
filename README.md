@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Image Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a full-stack web app project that categorizes preloaded images into different themes, colors and mood and allowing the user to choose and save to their favorites page, just like a Pinterest page. The project uses Node.js and React framework for the front end web UI. The server is located in a separate repository "image_generator_server", which generates and fetches the information needed for the content displayed in the web app.
+
+## Project demo video
+Please click on the image below to access the Youtube video for the demo.
+
 
 ## Available Scripts
 
