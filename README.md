@@ -4,7 +4,7 @@ This project is a full-stack web app project that categorizes preloaded images i
 
 ## Project demo video
 Please click on the image below to access the Youtube video for the demo.
-
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/vlkYmQ6OMQI/0.jpg)](http://www.youtube.com/watch?v=vlkYmQ6OMQI "Image Generator Web App")
 
 ## Available Scripts
 
